@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my carousel imagees</title>
+    <link rel="stylesheet" href="./carousel.css">
+    <!--rel:relationship的英文缩写.REL属性用于定义连接的文件和HTML文档之间的关系。-->
+    <!--属性值stylesheet定义一个外部加载的样式表；href是链接的外部文档url；-->
+    <!--REL=StyleSheet指定一个固定或首选的样式而REL="Alternate StyleSheet"定义一个交互样式。-->
+    <!--告诉浏览器你将采用一个样式表文件-->
+    <!--简单来说就是告诉浏览器你将采用什么编码来对下面的内容进行处理-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./carousel.js"></script>
+</head>
+<body>
+<div class="imageRotation">
+    <div class="imageBox">
+        <a href="http://www.itxueyuan.org" target="_blank">
+            <img src="http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/1.jpg" alt="1">
+        </a>
+        <a href="http://www.itxueyuan.org" target="_blank">
+            <img src="http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/2.jpg" alt="1">
+        </a>
+        <a href="http://www.itxueyuan.org" target="_blank">
+            <img src="http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/3.jpg" alt="1">
+        </a>
+        <a href="http://www.itxueyuan.org" target="_blank">
+            <img src="http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/4.jpg" alt="1">
+        </a>
+    </div>
+    <div class="titleBox">
+        <p class="active"><span>第一张图片标题</span></p>
+        <p>第二张图片标题</p>
+        <p>第三张图片标</p>
+        <p>第四张图片标题</p>
+    </div>
+    <div class="icoBox">
+        <span class="active" rel="1">1</span>
+        <span rel="2">2</span>
+        <span rel="3">3</span>
+        <span rel="4">4</span>
+    </div>
+</div>
+</body>
+</html>
